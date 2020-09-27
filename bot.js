@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client({ partials: ['MESSAGE', 'REACTION', 'CHANNEL'] });
-const prefix = '#';// برفكس
+const prefix = '#wc';// برفكس
 const guildModel = require('./models/guild');
 const ticketModel = require('./models/ticket');
 const fetch = require('discord-fetch-all');
@@ -8,7 +8,7 @@ const ticket = require('./models/ticket');
 const createTicket = require('./cmds/createTicket')
 const mongoose = require('mongoose');
 const fs = require('fs');
-const urlMongo = ``;//Mongodb
+const urlMongo = `mongodb+srv://Turki:dDeDNnF99WyNkkeo@cluster0.mqux4.mongodb.net/Turki?retryWrites=true&w=majority`;//Mongodb
 client.on('ready', () => {
 console.log(`Online`);
 });
@@ -139,4 +139,4 @@ client.on('messageReactionAdd', async(reaction, user) => {
 }
 })
 
-client.login('');/// برفكس
+client.login('NzU3NTk5NjIxOTgyNzE1OTE1.X2ivoQ.FGG7F_TzZCD2bhfH0YoibqAi2gI');/// برفكس
