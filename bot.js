@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client({ partials: ['MESSAGE', 'REACTION', 'CHANNEL'] });
-const prefix = '#wc';// برفكس
+const prefix = '#';// برفكس
 const guildModel = require('./models/guild');
 const ticketModel = require('./models/ticket');
 const fetch = require('discord-fetch-all');
@@ -139,4 +139,4 @@ client.on('messageReactionAdd', async(reaction, user) => {
 }
 })
 
-client.login('NzU3NTk5NjIxOTgyNzE1OTE1.X2ivoQ.FGG7F_TzZCD2bhfH0YoibqAi2gI');/// برفكس
+client.login('NzU3NTk5NjIxOTgyNzE1OTE1.X2ivoQ.FGG7F_TzZCD2bhfH0YoibqAi2gI');/// توكن
