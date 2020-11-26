@@ -8,7 +8,7 @@ const ticket = require('./models/ticket');
 const createTicket = require('./cmds/createTicket')
 const mongoose = require('mongoose');
 const fs = require('fs');
-const urlMongo = `mongodb+srv://Turki:dDeDNnF99WyNkkeo@cluster0.mqux4.mongodb.net/Turki?retryWrites=true&w=majority`;//Mongodb
+const urlMongo = `mongodb+srv://eal:moaThomarHoDa9590@cluster0.mqux4.mongodb.net/eal?retryWrites=true&w=majority`;//Mongodb
 client.on('ready', () => {
 console.log(`Online`);
 });
